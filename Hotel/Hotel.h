@@ -7,6 +7,7 @@
 
 using namespace std;
 
+
 class Hotel
 {
 
@@ -21,6 +22,7 @@ public:
 
 	void ZimmerZustandsAusgabe();
 	void belegteZimmerAusgabe();
+	void KundeAusZimmerEntfernen(int knr);
 
 	void einRandomKundenErstellen();
 };
